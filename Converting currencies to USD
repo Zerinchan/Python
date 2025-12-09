@@ -1,0 +1,18 @@
+pes = int(input('What do you have left in pesos? '))
+
+sol = int(input('What do you have left in soles? '))
+
+rei = int(input('What do you have left in reais? '))
+
+get= pes*0.055
+
+get2 = sol*0.30
+
+get3 = rei*0.18
+
+usd = (get+get2+get3)
+
+print('The total USD is:')
+
+print(usd)
+
