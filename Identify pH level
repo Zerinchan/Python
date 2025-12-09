@@ -1,0 +1,13 @@
+get = float(input('Enter the pH value: '))
+
+if get == 7.0:
+
+print('Neutral')
+
+elif get>7.0:
+
+print('Basic')
+
+elif get<7.0:
+
+print('Acidic')
