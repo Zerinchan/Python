@@ -1,0 +1,79 @@
+gry=0
+
+rav=0
+
+hu=0
+
+sly=0
+
+print('Q1. Do you like dawn or dusk? \n1. Dawn \n2. Dusk')
+
+get1= int(input())
+
+if get1==1:
+
+gry+=1
+
+rav+=1
+
+elif get1==2:
+
+hu+=1
+
+sly+=1
+
+else:
+
+print('Wrong input')
+
+print('When I am old, I want people to remember me as:\n1. The Good \n2. The Great \n3. The wise \n4. The Bold')
+
+get2=int(input('Your Ans- '))
+
+if get2 ==1:
+
+hu+=2
+
+elif get2==2:
+
+sly+=2
+
+elif get2==3:
+
+rav+=2
+
+elif get2==4:
+
+Gry+=2
+
+else:
+
+print('Wrong inpur.')
+
+print('Which kind of instrument most pleases your ear? \n1. The violine \n2. The trumpet \n3. The piano \n4. The drum')
+
+get3= int(input('Put your answer: '))
+
+if get3==1:
+
+sly+=4
+
+elif get3==2:
+
+hu+=4
+
+elif get3==3:
+
+rav+=4
+
+elif get3==4:
+
+gry+=4
+
+print('Total score of Gryffindor is ', gry )
+
+print('Total score of Hufflepuff is ', hu )
+
+print('Total score of Slytherin is ', sly )
+
+print('Total score of Ravenclaw is ', rav )
