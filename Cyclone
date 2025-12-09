@@ -1,0 +1,19 @@
+he=int(input('Enter height'))
+
+cre=int(input('Enter credits'))
+
+if he>=137 and cre>=10:
+
+print('Enjoy the ride!')
+
+elif he<137 and cre>=10:
+
+print('You are not tall enough to ride!')
+
+elif he>=137 and cre<10:
+
+print('You do not have enought credits!')
+
+else:
+
+print('You have not met either requirement')
